@@ -7,7 +7,7 @@ const stats = [
     text: "Years of experience",
   },
   {
-    num: 8,
+    num: 10,
     text: "Technologies Used",
   },
   {
@@ -28,6 +28,7 @@ const Stats = () => {
                 key={index}
               >
                 <CountUp
+                  delay={2}
                   end={item.num}
                   duration={5}
                   className="text-4xl xl:text-6xl font-extrabold"

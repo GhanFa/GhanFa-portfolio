@@ -7,25 +7,25 @@ const services = [
   {
     num: 1,
     name: "Web Development",
-    path: "/services/web-development",
+    path: "",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione tempora, perferendis velit corrupti cum temporibus? ",
   },
   {
     num: 2,
-    name: "Mobile Development",
-    path: "/services/mobile-development",
+    name: "Wordpress Development",
+    path: "",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione tempora, perferendis velit corrupti cum temporibus? ",
   },
   {
     num: 3,
-    name: "UI/UX Design",
-    path: "/services/ui-ux-design",
+    name: "Logo Design",
+    path: "",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione tempora, perferendis velit corrupti cum temporibus? ",
   },
   {
     num: 4,
-    name: "Logo Design",
-    path: "/services/logo-design",
+    name: "Product Design",
+    path: "",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione tempora, perferendis velit corrupti cum temporibus? ",
   },
 ];
