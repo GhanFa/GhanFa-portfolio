@@ -17,9 +17,8 @@ const Homepage = () => {
               <span className="text-accent">Ghani Fauzan</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione
-              consequatur eum blanditiis ipsum fugiat vel voluptatum, ad iure.
-              Dolor cupiditate error, officiis natus voluptatem.
+              I'm a front-end Web Developer based in Garut, west Java,
+              Indonesia. I have an interest in design and building website.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button

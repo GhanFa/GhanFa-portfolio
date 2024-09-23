@@ -28,7 +28,7 @@ import { motion } from "framer-motion";
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque recusandae voluptates minima excepturi quisquam perferendis omnis cupiditate nostrum labore ea.",
+    "Hi i'm Ghani Fauzan, a front-end web developer who is passionate about creating amazing digital experiences especially in design and websites. I have a deep interest in how technology can change the way we interact with the world. Outside of web development, I enjoy reading comics, playing games, and sometimes playing badminton.",
   info: [
     {
       fieldName: "Full Name",
@@ -64,8 +64,7 @@ const about = {
 const Experiences = {
   icon: "",
   title: "My Experiences",
-  description:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque recusandae voluptates minima excepturi quisquam perferendis omnis cupiditate nostrum labore ea.",
+  description: "So far I have experience in working in the following areas:",
   items: [
     {
       company: "Jakarta Repair Sofa",
@@ -88,7 +87,7 @@ const Experiences = {
 const education = {
   title: "Education",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque recusandae voluptates minima excepturi quisquam perferendis omnis cupiditate nostrum labore ea.",
+    "I have a background in Information Technology. During my studies, I focused on web design and was actively involved in various projects that honed my technical skills and creativity. In addition, I attended several courses and bootcamps related to web development, where I learned about frameworks and technologies used in the professional field. I am always eager to learn and develop myself in the field of technology.",
   items: [
     {
       school: "Binar Academy Bootcamp",
@@ -112,7 +111,7 @@ const education = {
 const skills = {
   title: "My Skills",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque recusandae voluptates minima excepturi quisquam perferendis omnis cupiditate nostrum labore ea.",
+    "During my activities in developing websites, I have become familiar with the following technologies:",
   skillList: [
     {
       name: "HTML",
