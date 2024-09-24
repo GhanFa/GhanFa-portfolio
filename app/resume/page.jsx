@@ -69,17 +69,17 @@ const Experiences = {
     {
       company: "Jakarta Repair Sofa",
       position: "Manager",
-      duration: "2021 - Present",
+      duration: "2022 - Present",
     },
     {
       company: "Digital Agency",
       position: "Frontend   Developer & Logo Designer",
-      duration: "2020 - 2021",
+      duration: "2021 - 2022",
     },
     {
       company: "Islamic boarding school foundation",
       position: "Public Relations staff",
-      duration: "2019 - 2020",
+      duration: "2019 - 2021",
     },
   ],
 };
@@ -103,7 +103,7 @@ const education = {
     {
       school: "Pamulang University",
       degree: "Bachelor Degree",
-      duration: "2016 - 2020",
+      duration: "2016 - 2021",
     },
   ],
 };
@@ -215,7 +215,7 @@ const Resume = () => {
             <TabsContent value="education" className="w-full">
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
                 <h3 className="text-4xl font-bold ">{education.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                <p className="max-w-[800px] text-white/60 mx-auto xl:mx-0">
                   {education.description}
                 </p>
                 <ScrollArea className="h-[400px]">
@@ -278,7 +278,7 @@ const Resume = () => {
             >
               <div className="flex flex-col gap-[30px]">
                 <h3 className="text-4xl font-bold">{about.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                <p className="max-w-[800px] text-white/60 mx-auto xl:mx-0">
                   {about.description}
                 </p>
                 <ul className="grid grid-cols-1 xl:grid-cols-2 gap-6 max-w-[620px] mx-auto xl:mx-0">
