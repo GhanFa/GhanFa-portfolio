@@ -15,53 +15,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Photo from "@/components/Photo";
 import SlideBtn from "@/components/SlideBtn";
-
-const projects = [
-  {
-    num: "01",
-    name: "Project 1",
-    category: "Landing Page",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione tempora, perferendis velit corrupti cum temporibus?",
-    stack: [{ name: "HTML" }, { name: "CSS" }, { name: "Javascript" }],
-    Image: "/assets/project/project1.png",
-    live: "",
-    github: "",
-  },
-  {
-    num: "02",
-    name: "Project 2",
-    category: "Frontend",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione tempora, perferendis velit corrupti cum temporibus?",
-    stack: [
-      { name: "HTML" },
-      { name: "CSS" },
-      { name: "Bootstrap" },
-      { name: "Javascript" },
-      { name: "React.Js" },
-      { name: "Node.Js" },
-    ],
-    Image: "/assets/project/project2.png",
-    live: "",
-    github: "",
-  },
-  {
-    num: "03",
-    name: "Project 3",
-    category: "Frontend",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione tempora, perferendis velit corrupti cum temporibus?",
-    stack: [
-      { name: "HTML" },
-      { name: "CSS" },
-      { name: "Tailwind.CSS" },
-      { name: "Javascript" },
-      { name: "React.Js" },
-      { name: "Node.Js" },
-    ],
-    Image: "/assets/project/project3.png",
-    live: "",
-    github: "",
-  },
-];
+import { projects } from "@/lib/constants";
 
 const Projects = () => {
   const [project, setProject] = useState(projects[0]);
@@ -114,7 +68,7 @@ const Projects = () => {
               <div className="border border-white/20"></div>
               {/* buttons */}
               <div className="flex items-center gap-4">
-                <Link href={project.live}>
+                <Link href={project.live} target="_blank">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -126,7 +80,7 @@ const Projects = () => {
                     </Tooltip>
                   </TooltipProvider>
                 </Link>
-                <Link href={project.github}>
+                <Link href={project.github} target="_blank">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -158,7 +112,7 @@ const Projects = () => {
                       {/* image */}
                       <div className="relative w-full h-full">
                         <Image
-                          src={""}
+                          src={project.image}
                           fill
                           className="object-cover"
                           alt={project.name}
