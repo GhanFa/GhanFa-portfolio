@@ -15,24 +15,7 @@ import {
 } from "@/components/ui/select";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
-
-const info = [
-  {
-    icon: <FaPhoneAlt />,
-    title: "Phone",
-    value: "(+62)81 219 477 181",
-  },
-  {
-    icon: <FaEnvelope />,
-    title: "Email",
-    value: "ghani.fauzan11@gmail.com",
-  },
-  {
-    icon: <FaMapMarkerAlt />,
-    title: "Location",
-    value: "Garut, West Java, Indonesia",
-  },
-];
+import { info } from "@/lib/constants";
 
 const Contact = () => {
   return (

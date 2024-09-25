@@ -2,28 +2,7 @@
 import { motion } from "framer-motion";
 import { BsArrowDownRight } from "react-icons/bs";
 import Link from "next/link";
-
-const services = [
-  {
-    num: 1,
-    name: "Web Development",
-    path: "",
-    desc: "Creating user interfaces for applications and websites, focusing on the visual elements and interactivity that users see. Using technologies such as HTML, CSS, and JavaScript, responsible for designing attractive layouts, ensuring responsiveness across devices, and enhancing the user experience through seamless interactions. In addition, we often work with modern frameworks such as React or Next.js to build dynamic and efficient applications. The goal is to combine aesthetics and functionality so that users can navigate the site comfortably and intuitively",
-  },
-
-  {
-    num: 2,
-    name: "Logo Design",
-    path: "",
-    desc: "Logo design is a creative process that aims to create a unique and recognizable visual identity for a brand or company. A logo serves as a symbolic representation of the brand's values, vision, and mission. In logo design, elements such as shape, color, and typography are carefully selected to create a strong and eye-catching impression. Logo designers must understand the target audience and industry trends to produce a logo that is not only aesthetic, but also relevant and effective in building a consistent brand image. ",
-  },
-  {
-    num: 3,
-    name: "Product Design",
-    path: "",
-    desc: "offers creative solutions to help brands create attractive and functional products. With a collaborative approach, we understand the needs of clients and target audiences, from research to concept development.",
-  },
-];
+import { services } from "@/lib/constants";
 
 const Services = () => {
   return (
